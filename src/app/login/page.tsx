@@ -63,9 +63,8 @@ export default function LoginPage() {
 
           {/* Demo credentials hint */}
           <div className="mb-6 p-3 bg-teal-50 border border-teal-200 rounded-xl">
-            <p className="text-xs text-teal-700 font-medium">Demo Credentials:</p>
-            <p className="text-xs text-teal-600">Admin: admin@washflow.id / admin123</p>
-            <p className="text-xs text-teal-600">Staff: staff@washflow.id / staff123</p>
+            <p className="text-xs text-teal-700 font-medium">Demo Environment</p>
+            <p className="text-xs text-teal-600">Gunakan akun demo yang sudah dikonfigurasi administrator.</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
